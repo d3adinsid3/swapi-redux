@@ -1,0 +1,57 @@
+body {
+    font-size: 1rem;
+}
+
+.links {
+    padding: 0.5rem;
+}
+
+.button-row {
+    margin: 0 0 1rem 0;
+}
+
+.button-row button {
+    margin-right: 1rem;
+}
+
+.app .row {
+    margin-bottom: 10rem;
+}
+
+.col-md-6 {
+    padding: 1rem;
+}
+
+
+.item-details {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 1px solid #444;
+}
+
+.item-details .item-image {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.item-details .list-group-item {
+    padding: .25rem;
+}
+
+.item-details .list-group-item .term {
+    margin-right: .5rem;
+}
+
+.item-details button {
+    margin-top: 5px;
+}
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px MidnightBlue;
+}
